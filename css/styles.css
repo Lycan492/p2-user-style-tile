@@ -1,0 +1,96 @@
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+body {
+	background: url("../img/brushed_alu_dark.png");
+}
+
+.masthead img {
+	height: 349px;
+	width: 960px;
+}
+
+h1, h2 {
+	font-family: 'Red October', sans-serif;
+	text-transform: uppercase;
+	color: #a61412;
+}
+
+h3 {
+	font-family: 'abwechselnschrift', sans-serif;
+	color: black;
+}
+
+
+
+p, a {
+	font-family: Times;
+	color: black;
+	margin-bottom: 10px;
+}
+
+a {
+	color:  #a61412;
+	text-decoration: none;
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
+
+.color-1 {
+	background-color: #a61412;
+}
+
+.color-2 {
+	background-color: black;
+}
+
+.color-3 {
+	background-color: white;
+}
+
+.pattern-1 {
+	background: url("../img/brushed_alu_dark.png");
+}
+
+.pattern-2, .pattern-3 {
+	background: white;
+}
+
+
+
+
+
+
+
+@font-face {
+	font-family: 'Red October';
+	src: url('../assets/red_october-regular-webfont.ttf');
+}
+
+@font-face {
+	font-family: 'abwechselnschrift';
+	src: url('../assets/abwechselnschrift.ttf');
+}
